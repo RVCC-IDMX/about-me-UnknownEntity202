@@ -8,6 +8,7 @@ body {
 font family: "Protest Guerrilla"
 font-size:40pt;
     }
+    
     header {
         text-align: center;
     }
@@ -22,6 +23,7 @@ font-size:40pt;
     
     #hero img {
         width:300px;
+        text-align: center;
     }
 
     #bio {
