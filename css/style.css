@@ -1,0 +1,30 @@
+body {
+    font-family: "Roboto Serif";
+    background-color: #4C70A6;
+    color:#4BAE9F; 
+}
+
+    h1, h2, h3, h4, h5, h6 {
+font family: "Protest Guerrilla"
+font-size:40pt;
+    }
+    header {
+        text-align: center;
+    }
+
+    #hero, footer {
+        color:#3B8A7E;
+        border:#7DCFDB;
+        background-color:#183833
+        text-align:center;
+        padding:10px;
+    }
+    
+    #hero img {
+        width:300px;
+    }
+
+    #bio {
+        text-align:center;
+
+    }
