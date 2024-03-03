@@ -1,11 +1,11 @@
 body {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    font-family: "Roboto Serif";
     background-color: #4C70A6;
     color:#00DBC9; 
 }
 
     h1, h2, h3, h4, h5, h6 {
-    font-family: "Abril Fatface";
+    font-family: "Protest Guerrilla"
         text-align:center;
     }
     h1 {
@@ -43,17 +43,17 @@ body {
         color:antiquewhite
      }
 
-     /* Gallery*/
+     /*Gallery*/
 
     #gallery {
-        border: 2px solid:#7DCFDB
+        border: 2px solid:#7DCFDB;
+        align-content:center;
     } 
 
     #gallery img {
-       max-width: 100%; 
+       max-width:100%; 
     }
 
     #gallery figure {
-        text-align: center;
-        align-content: center;
+        text-align:center;
     }
