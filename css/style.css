@@ -1,11 +1,11 @@
 body {
-    font-family: monospace;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
     background-color: #4C70A6;
     color:#00DBC9; 
 }
 
     h1, h2, h3, h4, h5, h6 {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: "Abril Fatface";
         text-align:center;
     }
     h1 {
