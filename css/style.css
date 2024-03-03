@@ -1,11 +1,11 @@
 body {
-    font-family: "Roboto Serif";
+    font-family: monospace;
     background-color: #4C70A6;
     color:#00DBC9; 
 }
 
     h1, h2, h3, h4, h5, h6 {
-    font-family: "Protest Guerrilla"
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
         text-align:center;
     }
     h1 {
@@ -46,7 +46,7 @@ body {
      /* Gallery*/
 
     #gallery {
-        border: 2px solid: #7DCFDB;
+        border: 2px solid:#7DCFDB
     } 
 
     #gallery img {
@@ -55,4 +55,5 @@ body {
 
     #gallery figure {
         text-align: center;
+        align-content: center;
     }
