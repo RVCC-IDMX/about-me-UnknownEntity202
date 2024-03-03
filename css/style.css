@@ -47,13 +47,13 @@ body {
 
     #gallery {
         border: 2px solid:#7DCFDB;
-        align-content:center;
     } 
 
     #gallery img {
-       max-width:100%; 
+       max-width:100%;
     }
 
     #gallery figure {
         text-align:center;
+        align-content:center;
     }
