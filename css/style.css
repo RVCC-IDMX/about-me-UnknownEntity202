@@ -5,8 +5,11 @@ body {
 }
 
     h1, h2, h3, h4, h5, h6 {
-font family: "Protest Guerrilla"
-font-size:40pt;
+    font-family: "Protest Guerrilla"
+        text-align:center;
+    }
+    h1 {
+        font-size:40pt;
     }
 
     header {
@@ -28,5 +31,8 @@ font-size:40pt;
 
     #bio {
         text-align:center;
+     }
 
-    }
+     #hobbies ul li:nth-child(even) {
+        color:antiquewhite
+     }
