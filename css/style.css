@@ -5,8 +5,8 @@ body {
 }
 
     h1, h2, h3, h4, h5, h6 {
-    font-family: "Protest Guerrilla"
-        text-align:center;
+    font-family: "Protest Guerrilla";
+    text-align: center;
     }
     h1 {
         font-size:40pt;
@@ -47,14 +47,42 @@ body {
 
     #gallery {
         text-align:center;
-        border: 4px color:#3B8A7E;
+        border: 4px; color:#3B8A7E;
     } 
 
     #gallery img {
-       max-width:100%;
+       max-width:40rem;
     }
 
     #gallery figure {
         text-align:center;
         align-content:center;
+    }
+
+    /*Literature*/
+    #lit {
+        border: 4px; color: #3B8A7E;
+        margin-bottom:3rem;
+    }
+
+    #lit div {
+        padding:2rem;
+        max-width: 40rem;
+        margin: 0 auto; 
+    }
+
+    #lit div p {
+        padding: 0.3rem 0;
+        clear:both;
+    }
+
+    /*Dropcaps*/
+
+    #lit div p::first-letter {
+        color:greenyellow
+        float:left;
+        font-size:2em;
+        padding:.25em;
+        line-height:.65;
+        border: 4px outset #3267A1;
     }
