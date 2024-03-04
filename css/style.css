@@ -79,9 +79,9 @@ body {
     /*Dropcaps*/
 
     #lit div p::first-letter {
-        color:greenyellow
+        color:rgb(0, 238, 255)
         float:left;
-        font-size:2em;
+        font-size:3em;
         padding:.25em;
         line-height:.65;
         border: 4px outset #3267A1;
