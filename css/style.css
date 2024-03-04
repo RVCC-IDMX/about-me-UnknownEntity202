@@ -61,7 +61,7 @@ body {
 
     /*Literature*/
     #lit {
-        border: 4px; color: #67cfff;
+        border: 4px; color: #00ffaa;
         margin-bottom:3rem;
     }
 
@@ -79,9 +79,9 @@ body {
     /*Dropcaps*/
 
     #lit div p::first-letter {
-        color:#67cfff;
+        color:#00ffaa;
         float:left;
-        font-size:.50em;
+        font-size:1em;
         padding:.25em;
         line-height:.55;
         border: 4px outset #3267A1;
