@@ -47,7 +47,7 @@ body {
 
     #gallery {
         text-align:center;
-        border: 4px; color:#3B8A7E;
+        border: 4px; color:#8cd1ff;
     } 
 
     #gallery img {
@@ -61,7 +61,7 @@ body {
 
     /*Literature*/
     #lit {
-        border: 4px; color: #3B8A7E;
+        border: 4px; color: #67cfff;
         margin-bottom:3rem;
     }
 
@@ -79,10 +79,10 @@ body {
     /*Dropcaps*/
 
     #lit div p::first-letter {
-        color:rgb(0, 238, 255)
+        color:#67cfff;
         float:left;
-        font-size:3em;
+        font-size:.50em;
         padding:.25em;
-        line-height:.65;
+        line-height:.55;
         border: 4px outset #3267A1;
     }
