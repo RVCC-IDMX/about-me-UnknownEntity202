@@ -60,7 +60,7 @@ section#hobbies {
 
     #gallery img {
        max-width:40rem;
-       align-items: center;
+       align-content: center;
     }
 
     #gallery figure {
@@ -115,6 +115,6 @@ section#hobbies {
 
     #lit div {
         max-width: 100%;
-        columns: 2rem;
+        columns: 20rem;
 
     }
