@@ -7,9 +7,11 @@ body {
     h1, h2, h3, h4, h5, h6 {
     font-family: "Protest Guerrilla";
     text-align: center;
+    font-size: 40pt;
     }
-    h1 {
-        font-size:40pt;
+
+    h2 {
+        margin: 0.1em;
     }
 
     header {
@@ -38,6 +40,12 @@ body {
      }
 
 /*Hobbies Section*/
+
+section#hobbies {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
      #hobbies ul li:nth-child(even) li:nth-child(odd) {
         color:antiquewhite
@@ -86,3 +94,20 @@ body {
         line-height:.55;
         border: 4px outset #3267A1;
     }
+
+/*h2 and margin changes*/
+
+    @media screen and (min-width: 60em) {
+        figure {
+            display: grid;
+            grid-template-columns: 1fr; 
+
+        }
+        figcaption {
+            display: flex;
+            justify-content: center; 
+            align-items: center;
+            font-size: 2rem;
+            margin-left: 1rem;
+        }
+    } 
