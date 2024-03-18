@@ -103,13 +103,13 @@ section#hobbies {
         figure {
             display: grid;
             grid-template-columns: 1fr; 
+            justify-items: center;
 
         }
         figcaption {
             display: flex;
             justify-content: center; 
             align-items: center;
-            justify-items: center;
             font-size: 2rem;
             margin-left: 1rem;
         }
