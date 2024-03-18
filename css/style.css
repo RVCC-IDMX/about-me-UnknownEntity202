@@ -55,13 +55,14 @@ section#hobbies {
      /* Gallery */
 
     #gallery {
-        text-align:center;
+        text-align: center;
         border: 4px; color:#8cd1ff;
+        align-content: center;
     } 
 
     #gallery img {
        max-width:40rem;
-       align-items: center;
+       align-content: center;
     }
 
     #gallery figure {
