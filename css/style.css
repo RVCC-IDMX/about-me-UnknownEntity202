@@ -88,13 +88,14 @@ section#hobbies {
 
     /*Dropcaps*/
 
-    #lit div p::first-letter {
+    #lit div p:first-child:first-letter {
         color:#00ffaa;
         float:left;
         font-size:1em;
         padding:.30em;
         line-height:.55;
         border: 4px outset #3267A1;
+        outline: 2px solid #51B4DB;
     }
 
 /*h2 and margin changes*/
