@@ -45,6 +45,7 @@ section#hobbies {
     display: flex;
     flex-direction: column;
     align-items: center;
+    outline: 1px solid #51B4DB;
 }
 
      #hobbies ul li:nth-child(even) li:nth-child(odd) {
@@ -60,12 +61,11 @@ section#hobbies {
 
     #gallery img {
        max-width:40rem;
-       align-content: center;
+       align-items: center;
     }
 
     #gallery figure {
         text-align: center;
-        align-content: center;
     }
 
     /*Literature*/
