@@ -61,7 +61,7 @@ section#hobbies {
     } 
 
     #gallery img {
-       max-width: 60rem;
+       max-width: 40rem;
        align-content: center;
     }
 
@@ -134,6 +134,10 @@ section#hobbies {
 
      #gallery h2 {
         grid-column: 1/-1;
+     }
+
+     figure {
+        display: block;
      }
     }
 
