@@ -60,11 +60,12 @@ section#hobbies {
 
     #gallery img {
        max-width:40rem;
+       align-items: center;
     }
 
     #gallery figure {
-        text-align:center;
-        align-content:center;
+        text-align: center;
+        align-content: center;
     }
 
     /*Literature*/
@@ -111,3 +112,9 @@ section#hobbies {
             margin-left: 1rem;
         }
     } 
+
+    #lit div {
+        max-width: 100%;
+        columns: 2rem;
+
+    }
