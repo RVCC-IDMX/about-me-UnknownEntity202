@@ -86,6 +86,14 @@ section#hobbies {
         clear:both;
     }
 
+    section#video {
+    color:#3B8A7E;
+    border:#7DCFDB;
+    background-color:#51B4DB;
+    text-align:center;
+    padding: 15px;
+    }
+
     /*Dropcaps*/
 
     #lit div p:first-child:first-letter {
